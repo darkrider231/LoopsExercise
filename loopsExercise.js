@@ -48,12 +48,10 @@ for(item1 of hogwartsHouses){
 
 // 6a
 const quote = [
-    // "Yer",
-    // "A",
-    // "Wizard",
-    // "Harry"
-
-    ["Yer", "A", "Wizard", "Harry"]
+    "Yer",
+    "A",
+    "Wizard",
+    "Harry"
 ];
 
 // 6b
