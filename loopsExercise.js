@@ -27,6 +27,15 @@ while(harryPotterMovies <= 8) {
     console.log(harryPotterMovies);
     harryPotterMovies++;
 }
+/*
+while (true){
+    harryPotterMovies++;
+    console.log(harryPotterMovies);
+    if (harryPotterMovies === 8){
+        break;
+    }
+}
+*/
 
 // BONUS
 // 5a
@@ -55,6 +64,11 @@ const quote = [
 ];
 
 // 6b
-for(let a = 0; a < quote.length; a++) {
-    console.log(`${quote[a]}`);
+let fullQuote = "";
+for(i = 0; i < quote.length; i++) {
+    fullQuote += quote[i];
+    if(i < quote.length - 1){
+        fullQuote += " ";
+    }
 }
+console.log(fullQuote);
